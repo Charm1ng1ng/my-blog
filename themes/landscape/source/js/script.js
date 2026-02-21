@@ -31,6 +31,49 @@
     stopSearchAnim();
   });
 
+  // Search results page
+  if ($('#search-results').length) {
+    var searchQuery = new URLSearchParams(window.location.search).get('q');
+    if (searchQuery) {
+      $('#search-query').text(decodeURIComponent(searchQuery));
+      
+      $.get('/search.xml', function(data) {
+        var query = decodeURIComponent(searchQuery).toLowerCase();
+        var results = [];
+        $(data).find('entry').each(function() {
+          var $entry = $(this);
+          var title = $entry.find('title').text().toLowerCase();
+          var content = $entry.find('content').text().toLowerCase();
+          var link = $entry.find('link').attr('href');
+          
+          if (title.indexOf(query) !== -1 || content.indexOf(query) !== -1) {
+            results.push({
+              title: $entry.find('title').text(),
+              link: link,
+              date: $entry.find('updated').text(),
+              excerpt: $entry.find('content\\:encoded, content').text().substring(0, 150) + '...'
+            });
+          }
+        });
+        
+        if (results.length === 0) {
+          $('#search-results').html('<p>未找到相关结果</p>');
+        } else {
+          var html = '';
+          results.forEach(function(result) {
+            html += '<article class="search-result-item">';
+            html += '<h2><a href="' + result.link + '">' + result.title + '</a></h2>';
+            html += '<p>' + result.excerpt + '</p>';
+            html += '</article>';
+          });
+          $('#search-results').html(html);
+        }
+      }).fail(function() {
+        $('#search-results').html('<p>加载搜索索引失败</p>');
+      });
+    }
+  }
+
   // Share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');

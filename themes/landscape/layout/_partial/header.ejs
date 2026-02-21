@@ -33,7 +33,10 @@
         <a class="nav-icon nav-search-btn" title="<%= __('search') %>"><span class="fa fa-search"></span></a>
       </nav>
       <div id="search-form-wrap">
-        <%- search_form({button: '&#xF002;', text: __('search')}) %>
+        <form class="search-form" action="/search/" method="get">
+          <input type="text" name="q" class="search-form-input" placeholder="<%= __('search') %>">
+          <button type="submit" class="search-form-submit">&#xF002;</button>
+        </form>
       </div>
     </div>
   </div>
