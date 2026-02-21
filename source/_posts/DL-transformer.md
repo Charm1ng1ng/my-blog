@@ -1,6 +1,7 @@
 ---
 title: Transformer深度学习模型详解
 date: 2026-02-22 08:00:00
+type: documents
 categories: 深度学习
 tags: [Transformer, NLP, Attention]
 ---
