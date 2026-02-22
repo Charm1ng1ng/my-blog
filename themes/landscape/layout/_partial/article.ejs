@@ -53,3 +53,20 @@
 
   </section>
 <% } %>
+
+<% if (!index && post.comments){ %>
+<!-- Waline 评论 -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@3/dist/waline.css">
+<div id="waline" style="margin-top: 40px;"></div>
+<script src="https://unpkg.com/@waline/client@3/dist/waline.umd.js"></script>
+<script>
+Waline.init({
+  el: '#waline',
+  serverURL: 'https://waline-server-iota-ecru.vercel.app/',
+  path: '<%= post.path %>',
+  lang: 'zh-CN',
+  requiredMeta: ['nick', 'mail'],
+  pageview: true
+})
+</script>
+<% } %>
