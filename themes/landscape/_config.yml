@@ -9,7 +9,7 @@ menu:
   项目: /projects
   文档: /documents
 # RSS link
-rss: /atom.xml
+# rss: /atom.xml
 # Path of title banner image of page top
 banner: "images/banner.jpg"
 # Avatar path
