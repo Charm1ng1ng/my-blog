@@ -16,5 +16,5 @@ type: about
 
 ### 联系方式
 
-- Email: example@email.com
-- GitHub: github.com/yourname
+- Email: 2543167192@qq.com
+- GitHub: https://github.com/Charm1ng1ng
