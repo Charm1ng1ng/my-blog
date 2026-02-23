@@ -5,9 +5,9 @@
 menu:
   Home: /
   Archives: /archives
-  关于: /about
-  项目: /projects
-  文档: /documents
+  About: /about
+  Projects: /projects
+  Documents: /documents
 # RSS link
 # rss: /atom.xml
 # Path of title banner image of page top

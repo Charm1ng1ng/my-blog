@@ -1,11 +1,12 @@
 ---
-title: 关于
+title: About
 date: 2026-02-22
 type: about
 ---
 
 ## 关于我
 
+![](images/avatar.jpg)
 你好，我是Charm1ng，目前是一名计算机研究生。
 
 ### 技术栈
