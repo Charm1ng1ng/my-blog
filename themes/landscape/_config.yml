@@ -71,7 +71,7 @@ recent_posts_limits: 5
 google_analytics:
 gauges_analytics:
 # Favicon path
-favicon: /favicon.png
+favicon: "https://data.cstcloud.cn/api/file/download/file/fcb639dd-39bc-48db-b633-67810026f9c5-4ebd5b67faa47bda8cee6f10baeab4a8"
 # Twitter ID
 twitter:
 fb_admins:
