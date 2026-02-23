@@ -56,7 +56,7 @@
 
 <% if (!index && post.comments){ %>
 <!-- Waline 评论 -->
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@3/dist/waline.css">
+<!-- <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 <div id="waline" style="margin-top: 40px;"></div>
 <script src="https://unpkg.com/@waline/client@3/dist/waline.umd.js"></script>
 <script>
@@ -68,5 +68,26 @@ Waline.init({
   requiredMeta: ['nick', 'mail'],
   pageview: true
 })
-</script>
+</script> -->
+<head>
+  <!-- ... -->
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comment.charm1ng.top',
+      path: '<%= post.path %>',
+      lang: 'zh-CN',
+      requiredMeta: ['nick', 'mail'],
+      pageview: true
+    });
+  </script>
+</body>
 <% } %>
