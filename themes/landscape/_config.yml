@@ -11,9 +11,10 @@ menu:
 # RSS link
 # rss: /atom.xml
 # Path of title banner image of page top
-banner: "images/banner.jpg"
+banner: "https://data.cstcloud.cn/api/file/download/file/ce0b8a91-c8de-4885-9585-4c93ec5dd77c-aa2800d587cc8aa26495aa1e69aae681"
 # Avatar path
-avatar: /images/avatar.jpg
+# avatar: /images/avatar.jpg
+avatar: "https://data.cstcloud.cn/api/file/download/file/215fccdf-f23b-46b5-b942-94ceef2e7a7f-3b3d9ced78f586a8fee495875b28cfec"
 # Subtitle of page top
 subtitle:
 # Header links with icon, specified links will appear at the top right corner of the page
