@@ -19,3 +19,6 @@ type: about
 
 - Email: 2543167192@qq.com
 - GitHub: https://github.com/Charm1ng1ng
+
+### 相关链接
+# 论文TTT-Link [论文TTT](/2026/02/23/论文xxx/ "论文TTT")
