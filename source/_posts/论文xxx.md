@@ -1,7 +1,7 @@
 ---
 title: 论文-TTT
 date: 2026-02-23 15:30
-type: Projects
+type: projects
 categories: 论文
 tags: [Transformer, NLP, Attention, 论文]
 ---
