@@ -4,8 +4,8 @@
 # Navigation menu
 menu:
   Home: /
-  Archives: /archives
   About: /about
+  Archives: /archives
   Projects: /projects
   Documents: /documents
 # RSS link
