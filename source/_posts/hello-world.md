@@ -2,40 +2,51 @@
 title: Hello World
 type: documents
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post.
+欢迎来到Hexo博客系统！这是您的第一篇博客文章。
 
 <!--more-->
 
-## Quick Start
+## Hexo简介
 
-### Create a new post
+Hexo是一个快速、简洁且高效的静态博客框架。Hexo使用Markdown解析文章，只需几秒时间即可生成静态网页。
 
-``` bash
-$ hexo new "My New Post"
+## 快速开始
+
+### 创建新文章
+
+```bash
+hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+### 启动本地服务器
 
-### Run server
-
-``` bash
-$ hexo server
+```bash
+hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+### 生成静态文件
 
-### Generate static files
-
-``` bash
-$ hexo generate
+```bash
+hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+### 部署到服务器
 
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
+```bash
+hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+## 更多文档
+
+- [写作文档](https://hexo.io/docs/writing.html)
+- [服务器文档](https://hexo.io/docs/server.html)
+- [生成文档](https://hexo.io/docs/generating.html)
+- [部署文档](https://hexo.io/docs/one-command-deployment.html)
+
+## 主题定制
+
+Hexo支持丰富的主题，您可以在[主题市场](https://hexo.io/themes/)中选择喜欢的主题进行安装。
+
+## 总结
+
+Hexo是一个功能强大且易于使用的博客框架，适合技术博客和个人网站的建设。希望您在Hexo的旅程中收获满满！

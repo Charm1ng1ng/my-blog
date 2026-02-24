@@ -2,7 +2,18 @@
   margin: block-margin 0
 
 .archives
-  clearfix()
+  display: grid
+  grid-template-columns: 1fr
+  gap: 15px
+  @media mq-tablet
+    grid-template-columns: repeat(2, 1fr)
+  @media mq-normal
+    grid-template-columns: repeat(3, 1fr)
+
+// 清除 grid 布局下的 clearfix 干扰
+.archives:before,
+.archives:after
+  display: none
 
 .archive-year-wrap
   margin-bottom: 1em
@@ -10,20 +21,12 @@
 .archive-year
   @extend $block-caption
 
-.archives
-  column-gap: 10px
-  @media mq-tablet
-    column-count: 2
-  @media mq-normal
-    column-count: 3
-
 .archive-article
   avoid-column-break()
 
 .archive-article-inner
   @extend $block
   padding: 10px
-  margin-bottom: 15px
 
 .archive-article-title
   text-decoration: none
@@ -33,6 +36,36 @@
   line-height: line-height
   &:hover
     color: color-link
+
+// 文章摘要样式
+.archive-article-excerpt
+  color: color-grey
+  font-size: 0.9em
+  line-height: 1.6
+  margin: 10px 0
+  overflow: hidden
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  p
+    margin: 0
+
+// Read More 按钮样式
+.article-more-link
+  margin: 10px 0 0 0
+  text-align: right
+  a
+    display: inline-block
+    padding: 6px 12px
+    font-size: 0.85em
+    color: #fff
+    background: color-link
+    border-radius: 3px
+    text-decoration: none
+    transition: background 0.2s
+    &:hover
+      background: color-theme
+      color: #fff
 
 .archive-article-footer
   margin-top: 1em
