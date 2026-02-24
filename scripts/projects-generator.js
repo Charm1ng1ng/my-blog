@@ -1,3 +1,8 @@
+/**
+ * 项目归档生成器
+ * 为 type: 'projects' 的文章生成分页归档页面
+ * 使用 hexo-pagination 库实现分页，路径格式: projects/page/x/
+ */
 'use strict';
 
 const pagination = require('hexo-pagination');
