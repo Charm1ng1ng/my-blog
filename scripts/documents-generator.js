@@ -15,7 +15,7 @@ hexo.extend.generator.register('documents', function(locals) {
   const perPage = config.per_page || 10;
   const result = [];
 
-  const documentPosts = locals.posts.filter(post => post.type === 'documents');
+  const documentPosts = locals.posts.filter(post => post.type === 'documents').sort('-date');
   
   if (!documentPosts.length) return result;
 
