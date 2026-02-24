@@ -26,9 +26,9 @@
           <% for (const i in theme.links) {%>
             <a class="nav-icon" href="<%- url_for(theme.links[i]) %>">
               <% if (i === 'douyin') { %>
-                <img src="/images/header/抖音.svg" alt="douyin" class="nav-svg-icon">
+                <img src="/images/header/douyin.svg" alt="douyin" class="nav-svg-icon">
               <% } else if (i === 'bilibili') { %>
-                <img src="/images/header/blibli.svg" alt="bilibili" class="nav-svg-icon">
+                <img src="/images/header/bilibili.svg" alt="bilibili" class="nav-svg-icon">
               <% } else { %>
                 <span class="fa fa-<%= i %>"></span>
               <% } %>

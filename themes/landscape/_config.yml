@@ -11,10 +11,10 @@ menu:
 # RSS link
 # rss: /atom.xml
 # Path of title banner image of page top 主页背景
-banner: "https://data.cstcloud.cn/api/file/download/file/cb3443e5-395f-42ed-9d3d-afde64d6fec0-aa2800d587cc8aa26495aa1e69aae681"
+banner: "/images/header/banner.jpg"
 # Avatar path
 # avatar: /images/avatar.jpg 主页头像
-avatar: "https://data.cstcloud.cn/api/file/download/file/52eadfeb-13ea-40d6-8b0f-b7896778a104-4ebd5b67faa47bda8cee6f10baeab4a8"
+avatar: "/images/header/best1.jpg"
 # Subtitle of page top
 subtitle:
 # Header links with icon, specified links will appear at the top right corner of the page
@@ -73,7 +73,7 @@ recent_posts_limits: 5
 google_analytics:
 gauges_analytics:
 # Favicon path
-favicon: "https://data.cstcloud.cn/api/file/download/file/fcb639dd-39bc-48db-b633-67810026f9c5-4ebd5b67faa47bda8cee6f10baeab4a8"
+favicon: "/images/header/best1.jpg"
 # Twitter ID
 twitter:
 fb_admins:

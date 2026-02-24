@@ -6,7 +6,7 @@ type: about
 
 ## 关于我
 
-![](https://data.cstcloud.cn/api/file/download/file/9450227f-6e31-4724-bd69-d2dd4c2160c4-d886699c2c0a918b0fc94380e3807352)
+![](/images/about/xiaozhua.jpg)
 
 你好，我是Charm1ng，目前是一名计算机研究生。
 
