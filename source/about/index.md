@@ -8,7 +8,7 @@ type: about
 
 ![](/images/about/xiaozhua.jpg)
 
-你好，我是Charm1ng，目前是一名计算机研究生。
+你好，我是**Charm1ng**，目前是一名计算机研究生。
 
 ### 技术栈
 
@@ -20,8 +20,6 @@ type: about
 
 - Email:    2543167192@qq.com  ||   2543167192zwj@gmail.com
 - GitHub:   [Charm1ng1ng](https://github.com/Charm1ng1ng  "Charm1ng1ng")
-- Douyin:   [百事可樂](https://www.douyin.com/user/MS4wLjABAAAA2ZkAFpDtK_I-8x9CavqsaHdGsHFURQioYB9eBiICA64  "百事可樂")
-- Bilibili:     [百事可樂Charm](https://space.bilibili.com/484884928  "百事可樂Charm")
 
 ### 相关链接
 # 论文TTT-Link [论文TTT](/2026/02/23/论文xxx/ "论文TTT")
