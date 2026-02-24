@@ -26,9 +26,9 @@
           <% for (const i in theme.links) {%>
             <a class="nav-icon" href="<%- url_for(theme.links[i]) %>">
               <% if (i === 'douyin') { %>
-                <img src="https://data.cstcloud.cn/api/file/download/file/ded51008-dffa-4bc0-b9a7-cdcdc6f95adb-23d76c4bea5f0b1a2bf186b39d731a45" alt="douyin" class="nav-svg-icon">
+                <img src="/images/header/抖音.svg" alt="douyin" class="nav-svg-icon">
               <% } else if (i === 'bilibili') { %>
-                <img src="https://data.cstcloud.cn/api/file/download/file/446adee2-f85f-46da-a9a9-24e9b5091e1e-e96e2d90f2146e488f55d5fea4028d9b" alt="bilibili" class="nav-svg-icon">
+                <img src="/images/header/blibli.svg" alt="bilibili" class="nav-svg-icon">
               <% } else { %>
                 <span class="fa fa-<%= i %>"></span>
               <% } %>

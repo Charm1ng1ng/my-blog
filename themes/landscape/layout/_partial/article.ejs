@@ -8,6 +8,13 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'p-name article-title'}) %>
+        <% if (!index) { %>
+          <!-- Waline 文章浏览量统计 -->
+          <div class="article-pageview">
+            <span class="fa fa-eye"></span>
+            <span class="waline-pageview-count" data-path="<%= post.path %>">0</span>
+          </div>
+        <% } %>
       </header>
     <% } %>
     <div class="e-content article-entry" itemprop="articleBody">
