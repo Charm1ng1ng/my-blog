@@ -5,10 +5,9 @@ type: projects
 categories: 论文
 tags: [Transformer, NLP, Attention, 论文]
 ---
-
-## 背景
-
 Transformer模型由Vaswani等人于2017年提出，完全基于注意力机制，摒弃了传统的RNN和CNN结构
+
+<!--more-->
 
 ## 摘要
 

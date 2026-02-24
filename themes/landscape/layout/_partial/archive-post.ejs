@@ -4,5 +4,16 @@
       <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'MMM D'}) %>
       <%- partial('post/title', {class_name: 'archive-article-title'}) %>
     </header>
+    <%# 文章摘要（<!--more--> 之前的内容） %>
+    <% if (post.excerpt){ %>
+      <div class="archive-article-excerpt">
+        <%- post.excerpt %>
+      </div>
+      <% if (theme.excerpt_link){ %>
+        <p class="article-more-link">
+          <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+        </p>
+      <% } %>
+    <% } %>
   </div>
 </article>
