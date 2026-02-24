@@ -18,8 +18,10 @@ type: about
 
 ### 联系方式
 
-- Email: 2543167192@qq.com
-- GitHub: https://github.com/Charm1ng1ng
+- Email:    2543167192@qq.com  ||   2543167192zwj@gmail.com
+- GitHub:   [Charm1ng1ng](https://github.com/Charm1ng1ng  "Charm1ng1ng")
+- Douyin:   [百事可樂](https://www.douyin.com/user/MS4wLjABAAAA2ZkAFpDtK_I-8x9CavqsaHdGsHFURQioYB9eBiICA64  "百事可樂")
+- Bilibili:     [百事可樂Charm](https://space.bilibili.com/484884928  "百事可樂Charm")
 
 ### 相关链接
 # 论文TTT-Link [论文TTT](/2026/02/23/论文xxx/ "论文TTT")
