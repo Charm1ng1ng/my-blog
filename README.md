@@ -17,7 +17,7 @@
 |------|------|
 | Hexo | 静态博客框架 |
 | Landscape | Hexo 官方主题 |
-| Waline | 评论系统（Vercel 部署 + SQLite 数据库） |
+| Waline | 评论系统（Vercel 部署 + Neon 数据库） |
 | 不蒜子 | 网站访问统计 |
 
 ## 本地开发
