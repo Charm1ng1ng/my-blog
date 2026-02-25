@@ -1,5 +1,6 @@
 ---
 title: Hello World
+date: 2026-02-22
 type: documents
 ---
 欢迎来到Hexo博客系统！这是您的第一篇博客文章。
