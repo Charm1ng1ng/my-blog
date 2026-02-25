@@ -1,6 +1,10 @@
 # Charm1ng 个人博客
 
-基于 Hexo + Landscape 主题构建的个人博客系统。
+- 基于 Hexo + Landscape 主题构建的个人博客系统。
+- 主要参考：
+  - Hexo 官方文档：https://hexo.io/zh-cn/docs/
+  - Landscape [项目地址](https://github.com/hexojs/hexo-theme-landscape) || [主题预览](https://hexojs.github.io/hexo-theme-landscape/)
+  - waline评论区实现：[waline快速上手](https://waline.js.org/guide/get-started/)
 
 ## 博客地址
 
