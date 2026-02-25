@@ -5,6 +5,9 @@
   - Hexo 官方文档：https://hexo.io/zh-cn/docs/
   - Landscape [项目地址](https://github.com/hexojs/hexo-theme-landscape) || [主题预览](https://hexojs.github.io/hexo-theme-landscape/)
   - waline评论区实现：[waline快速上手](https://waline.js.org/guide/get-started/)
+  - 开发环境：
+    - 系统: wsl2+ubuntu20.04
+    - AI编程工具：[opencode](https://opencode.ai/zen) + [minimax-m2.5](https://www.minimaxi.com/news/minimax-m25)
 
 ## 博客地址
 
