@@ -161,7 +161,7 @@ avatar: "/images/header/best1.jpg"
 
 - 服务端部署在 Vercel
 - 客户端集成在主题中 (`themes/landscape/layout/_partial/article.ejs`)
-- 评论数据存储在 SQLite 数据库
+- 评论数据存储在 Neon 数据库
 
 ### 访问统计 (不蒜子)
 
