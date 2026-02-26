@@ -1,5 +1,5 @@
 ---
-title: 论文：Time-Token Transformer时间序列
+title: 论文：Time-Token Transformer时间序列预测，ai生成
 date: 2026-02-23 15:30
 type: projects
 categories: 论文
