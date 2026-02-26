@@ -59,7 +59,7 @@ sidebar: left
 # Widgets displaying in sidebar
 widgets:
 - category
-- tag
+# - tag
 - tagcloud
 - archive
 - recent_posts

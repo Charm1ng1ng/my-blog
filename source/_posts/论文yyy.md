@@ -1,6 +1,6 @@
 ---
 title: 论文：ViT视觉Transformer详解
-date: 2026-02-23 15:30
+date: 2026-01-23 15:30
 type: projects
 categories: 论文
 tags: [Transformer, NLP, Attention, 论文]
