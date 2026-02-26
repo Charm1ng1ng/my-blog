@@ -1,7 +1,9 @@
 ---
 title: Hello World
 date: 2026-02-22
-type: documents
+type: projects
+categories: 项目
+tags: [hello, 博客]
 ---
 欢迎来到Hexo博客系统！这是您的第一篇博客文章。
 
